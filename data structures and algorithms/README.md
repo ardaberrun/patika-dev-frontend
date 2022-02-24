@@ -38,3 +38,8 @@
 ![merge](https://user-images.githubusercontent.com/48234601/155575288-de951c1a-8536-40d2-b377-d530a61b7db9.png)
 
 <hr>
+
+### Binary Search Tree Project of the Data Structures and Algorithms Section from Patika.dev
+
+![bst](https://user-images.githubusercontent.com/48234601/155575361-5d32b6b0-e3fa-4b8a-8b23-1475f8f7109b.png)
+
