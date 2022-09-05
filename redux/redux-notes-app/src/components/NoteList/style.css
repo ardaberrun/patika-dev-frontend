@@ -1,0 +1,65 @@
+.note-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.note {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  background-color: rgb(253 224 71);
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.note-header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.note-header.no-title {
+    justify-content: flex-end;
+}
+
+.note-actions {
+  visibility: hidden;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.note:hover .note-actions {
+  visibility: visible;
+}
+
+.note:hover .note-actions button {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.note-title {
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.note-content {
+  font-size: 1rem;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
